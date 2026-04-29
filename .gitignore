@@ -317,3 +317,9 @@ http-client.private.env.json
 
 # Exclude logs directory
 logs/*
+
+# OS Files
+.DS_Store
+
+# Data (local only)
+data/
