@@ -1,0 +1,6 @@
+model_key,model_name,model_path,R2,MAE,RMSE
+linear_reg,Ridge Regression,/Users/sachabenichou/Downloads/machinelearning35/ml-poc-project/models/linear_reg.joblib,0.9313290724465632,4.003037010744428,5.211609836995114
+random_forest,Random Forest,/Users/sachabenichou/Downloads/machinelearning35/ml-poc-project/models/random_forest.joblib,0.8960078575062037,5.197989948942754,6.413361218524486
+gradient_boosting,Gradient Boosting,/Users/sachabenichou/Downloads/machinelearning35/ml-poc-project/models/gradient_boosting.joblib,0.8976101636483645,5.007394355410393,6.3637610303442145
+knn,XGBoost,/Users/sachabenichou/Downloads/machinelearning35/ml-poc-project/models/knn.joblib,0.8978882854668662,5.067676729969681,6.355112201587314
+svr,LightGBM,/Users/sachabenichou/Downloads/machinelearning35/ml-poc-project/models/svr.joblib,0.9027014395971961,4.866081257910025,6.203526556044789

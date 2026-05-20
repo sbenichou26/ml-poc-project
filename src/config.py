@@ -30,12 +30,30 @@ MODEL_METRICS_FILE = RESULTS_DIR / "model_metrics.csv"
 STREAMLIT_HOST = "localhost"
 STREAMLIT_PORT = 8501
 
-# Students must replace this example with their trained models.
-# Each entry must point to a serialized model saved as `.joblib`, `.pkl`, or `.pickle`.
 MODELS = {
-    "model_a": {
-        "name": "Model A",
-        "description": "A simple baseline model.",
-        "path": MODELS_DIR / "model_a.pkl",
+    "linear_reg": {
+        "name": "Ridge Regression",
+        "description": "Modèle baseline linéaire régularisé.",
+        "path": MODELS_DIR / "linear_reg.joblib",
+    },
+    "random_forest": {
+        "name": "Random Forest",
+        "description": "Ensemble de 300 arbres de décision.",
+        "path": MODELS_DIR / "random_forest.joblib",
+    },
+    "gradient_boosting": {
+        "name": "Gradient Boosting",
+        "description": "Arbres construits en séquence, chacun corrige le précédent.",
+        "path": MODELS_DIR / "gradient_boosting.joblib",
+    },
+    "knn": {
+        "name": "XGBoost",
+        "description": "Gradient boosting optimisé, très performant sur données tabulaires.",
+        "path": MODELS_DIR / "knn.joblib",
+    },
+    "svr": {
+        "name": "LightGBM",
+        "description": "Gradient boosting rapide basé sur des histogrammes.",
+        "path": MODELS_DIR / "svr.joblib",
     },
 }
